@@ -1,0 +1,97 @@
+{
+  "1bfdb81f872a17f7c87352aca31c8808" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "42f843e8fad98e53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608519477,
+        "stop" : 1596608519505,
+        "duration" : 28
+      }
+    } ]
+  },
+  "e39030d73cbb030cb18dd53a09d1bb78" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "864ae2bdaed91fa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608519663,
+        "stop" : 1596608519681,
+        "duration" : 18
+      }
+    } ]
+  },
+  "3792f53ae862b1e55d2addbdf2658842" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1badacb21a7ab2ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608519510,
+        "stop" : 1596608519633,
+        "duration" : 123
+      }
+    } ]
+  },
+  "dd741a25ae2b5b7505173b327a21f679" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53a8f2b8ad9cd465",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608519640,
+        "stop" : 1596608519657,
+        "duration" : 17
+      }
+    } ]
+  },
+  "d08f7e1daf8bae270356a158d0d66807" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8229303b766aa39f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596608519435,
+        "stop" : 1596608519474,
+        "duration" : 39
+      }
+    } ]
+  }
+}

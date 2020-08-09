@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 05 16:13:45 GMT+08:00 2020","Wed Aug 05 16:13:45 GMT+08:00 2020","42","cases","test_geteventlist","","","","test_geteventlist02","按照分类检索"
+"passed","Wed Aug 05 16:13:44 GMT+08:00 2020","Wed Aug 05 16:13:44 GMT+08:00 2020","131","cases","test_admin","","","","test_login02",""
+"passed","Wed Aug 05 16:13:44 GMT+08:00 2020","Wed Aug 05 16:13:45 GMT+08:00 2020","38","cases","test_geteventlist","","","","test_geteventlist01","无查询条件"

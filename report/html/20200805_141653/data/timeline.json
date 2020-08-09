@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MSI",
+    "children" : [ {
+      "name" : "24604-MainThread",
+      "children" : [ {
+        "name" : "test_geteventlist01",
+        "uid" : "b3002a9f96d2c1c9",
+        "parentUid" : "4df7db8b1230d2c6943f3a7590c81522",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596608213789,
+          "stop" : 1596608213827,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login01[正常登录-zhangsan-MTIzMTIzNDU2-0]",
+        "uid" : "65f13afe9b845ce8",
+        "parentUid" : "4df7db8b1230d2c6943f3a7590c81522",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596608213877,
+          "stop" : 1596608214012,
+          "duration" : 135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'正常登录'", "0", "'MTIzMTIzNDU2'", "'zhangsan'" ]
+      }, {
+        "name" : "test_login01[密码为空-zhangsan--10001]",
+        "uid" : "88fcd9895ee55bec",
+        "parentUid" : "4df7db8b1230d2c6943f3a7590c81522",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596608214082,
+          "stop" : 1596608214111,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'密码为空'", "10001", "''", "'zhangsan'" ]
+      }, {
+        "name" : "test_login01[密码错误-zhangsan-123456-10000]",
+        "uid" : "2ab051bddc50e850",
+        "parentUid" : "4df7db8b1230d2c6943f3a7590c81522",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596608214029,
+          "stop" : 1596608214060,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'密码错误'", "10000", "'123456'", "'zhangsan'" ]
+      }, {
+        "name" : "test_geteventlist02",
+        "uid" : "aaa39c185922f648",
+        "parentUid" : "4df7db8b1230d2c6943f3a7590c81522",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596608213829,
+          "stop" : 1596608213869,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4df7db8b1230d2c6943f3a7590c81522"
+    } ],
+    "uid" : "4e235fbd4c199973bc00f3dda2ae852d"
+  } ]
+}

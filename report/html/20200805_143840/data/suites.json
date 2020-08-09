@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "cases",
+    "children" : [ {
+      "name" : "test_geteventlist",
+      "children" : [ {
+        "name" : "test_geteventlist01",
+        "uid" : "a732a782edb28247",
+        "parentUid" : "e77896829842e3aa52f4c697c9d8dadd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596609521085,
+          "stop" : 1596609521121,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_geteventlist02",
+        "uid" : "32eb21cea9475b3a",
+        "parentUid" : "e77896829842e3aa52f4c697c9d8dadd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596609521124,
+          "stop" : 1596609521155,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e77896829842e3aa52f4c697c9d8dadd"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "test_login01[正常登录]",
+        "uid" : "abef91f0e156d6da",
+        "parentUid" : "33ebf701f761a58373538875f0d6377d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596609521158,
+          "stop" : 1596609521292,
+          "duration" : 134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'正常登录'", "0", "'MTIzMTIzNDU2'", "'zhangsan'" ]
+      }, {
+        "name" : "test_login01[密码错误]",
+        "uid" : "a2eb9b6c3dd9672f",
+        "parentUid" : "33ebf701f761a58373538875f0d6377d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596609521304,
+          "stop" : 1596609521321,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'密码错误'", "10000", "'123456'", "'zhangsan'" ]
+      }, {
+        "name" : "test_login01[密码为空]",
+        "uid" : "e9f18b23ded20367",
+        "parentUid" : "33ebf701f761a58373538875f0d6377d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596609521333,
+          "stop" : 1596609521353,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'密码为空'", "10001", "''", "'zhangsan'" ]
+      } ],
+      "uid" : "33ebf701f761a58373538875f0d6377d"
+    } ],
+    "uid" : "9614ab5598a04b276864cf0744ce0d93"
+  } ]
+}

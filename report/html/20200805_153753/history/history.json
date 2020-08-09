@@ -1,0 +1,61 @@
+{
+  "1bfdb81f872a17f7c87352aca31c8808" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec68ca2c3b893cc1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 响应json节点检查失败。实际结果【10001】，预期结果【0】， json节点的路径【error_code】",
+      "time" : {
+        "start" : 1596613074159,
+        "stop" : 1596613074176,
+        "duration" : 17
+      }
+    } ]
+  },
+  "d08f7e1daf8bae270356a158d0d66807" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "665c138425277b6c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 响应json节点检查失败。实际结果【10001】，预期结果【0】， json节点的路径【error_code】",
+      "time" : {
+        "start" : 1596613074085,
+        "stop" : 1596613074115,
+        "duration" : 30
+      }
+    } ]
+  },
+  "3a225cccacb6df249c19c463e7c91629" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b09309d7278c35b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596613074186,
+        "stop" : 1596613074317,
+        "duration" : 131
+      }
+    } ]
+  }
+}

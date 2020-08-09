@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MSI",
+    "children" : [ {
+      "name" : "22216-MainThread",
+      "children" : [ {
+        "name" : "test_geteventlist02",
+        "uid" : "5e0c9681f462d83",
+        "parentUid" : "02c0f8dc9176271c58153ad72d717bdf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596608103879,
+          "stop" : 1596608103920,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_geteventlist01",
+        "uid" : "1ced5fed17b71c1",
+        "parentUid" : "02c0f8dc9176271c58153ad72d717bdf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596608103833,
+          "stop" : 1596608103874,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login01[zhangsan-MTIzMTIzNDU2-0]",
+        "uid" : "82b74f2306776cad",
+        "parentUid" : "02c0f8dc9176271c58153ad72d717bdf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596608103931,
+          "stop" : 1596608104065,
+          "duration" : 134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'MTIzMTIzNDU2'", "'zhangsan'" ]
+      }, {
+        "name" : "test_login01[zhangsan--10001]",
+        "uid" : "9792ecd2919b5a81",
+        "parentUid" : "02c0f8dc9176271c58153ad72d717bdf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596608104127,
+          "stop" : 1596608104156,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "10001", "''", "'zhangsan'" ]
+      }, {
+        "name" : "test_login01[zhangsan-123456-10000]",
+        "uid" : "cc3288f6a468de8",
+        "parentUid" : "02c0f8dc9176271c58153ad72d717bdf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596608104083,
+          "stop" : 1596608104115,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "10000", "'123456'", "'zhangsan'" ]
+      } ],
+      "uid" : "02c0f8dc9176271c58153ad72d717bdf"
+    } ],
+    "uid" : "4e235fbd4c199973bc00f3dda2ae852d"
+  } ]
+}

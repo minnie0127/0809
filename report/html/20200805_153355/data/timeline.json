@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MSI",
+    "children" : [ {
+      "name" : "12644-MainThread",
+      "children" : [ {
+        "name" : "test_geteventlist01",
+        "uid" : "13225ed83bf0ecaa",
+        "parentUid" : "574c519dd598225280971804485a9c6c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596612836153,
+          "stop" : 1596612836177,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_geteventlist02",
+        "uid" : "ad13698dbedb7ed6",
+        "parentUid" : "574c519dd598225280971804485a9c6c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596612836222,
+          "stop" : 1596612836245,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login02",
+        "uid" : "628da2cca6c91c7b",
+        "parentUid" : "574c519dd598225280971804485a9c6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596612836256,
+          "stop" : 1596612836385,
+          "duration" : 129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "574c519dd598225280971804485a9c6c"
+    } ],
+    "uid" : "4e235fbd4c199973bc00f3dda2ae852d"
+  } ]
+}

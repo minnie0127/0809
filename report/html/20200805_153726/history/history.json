@@ -1,0 +1,62 @@
+{
+  "1bfdb81f872a17f7c87352aca31c8808" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fcc293d26dfa91a1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: must be str, not dict",
+      "time" : {
+        "start" : 1596613047040,
+        "stop" : 1596613047064,
+        "duration" : 24
+      }
+    } ]
+  },
+  "d08f7e1daf8bae270356a158d0d66807" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7e59f25b2c205ba",
+      "status" : "broken",
+      "statusDetails" : "TypeError: must be str, not dict",
+      "time" : {
+        "start" : 1596613046956,
+        "stop" : 1596613046995,
+        "duration" : 39
+      }
+    } ]
+  },
+  "3a225cccacb6df249c19c463e7c91629" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15a5e2c3ddae1711",
+      "status" : "broken",
+      "statusDetails" : "TypeError: must be str, not dict",
+      "time" : {
+        "start" : 1596613047079,
+        "stop" : 1596613047197,
+        "duration" : 118
+      }
+    } ]
+  }
+}

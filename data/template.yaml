@@ -1,0 +1,6 @@
+templates:
+  -
+    api: admin
+    url: /admin/
+    method: POST
+    body_type: form

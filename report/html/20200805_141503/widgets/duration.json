@@ -1,0 +1,51 @@
+[ {
+  "uid" : "5e0c9681f462d83",
+  "name" : "test_geteventlist02",
+  "time" : {
+    "start" : 1596608103879,
+    "stop" : 1596608103920,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc3288f6a468de8",
+  "name" : "test_login01[zhangsan-123456-10000]",
+  "time" : {
+    "start" : 1596608104083,
+    "stop" : 1596608104115,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82b74f2306776cad",
+  "name" : "test_login01[zhangsan-MTIzMTIzNDU2-0]",
+  "time" : {
+    "start" : 1596608103931,
+    "stop" : 1596608104065,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9792ecd2919b5a81",
+  "name" : "test_login01[zhangsan--10001]",
+  "time" : {
+    "start" : 1596608104127,
+    "stop" : 1596608104156,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ced5fed17b71c1",
+  "name" : "test_geteventlist01",
+  "time" : {
+    "start" : 1596608103833,
+    "stop" : 1596608103874,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

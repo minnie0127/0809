@@ -1,0 +1,55 @@
+{
+  "uid" : "aaa39c185922f648",
+  "name" : "test_geteventlist02",
+  "fullName" : "cases.test_geteventlist#test_geteventlist02",
+  "historyId" : "1bfdb81f872a17f7c87352aca31c8808",
+  "time" : {
+    "start" : 1596608213829,
+    "stop" : 1596608213869,
+    "duration" : 40
+  },
+  "description" : "按照分类检索",
+  "descriptionHtml" : "<p>按照分类检索</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_geteventlist"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "24604-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_geteventlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aaa39c185922f648.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,65 @@
+{
+  "uid" : "d85efa91ac47ce18",
+  "name" : "test_login01[密码错误]",
+  "fullName" : "cases.test_login#test_login01",
+  "historyId" : "cb865ea04c9b2326a13f74f1dcfd2c25",
+  "time" : {
+    "start" : 1596610942962,
+    "stop" : 1596610942990,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "11604-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "desc",
+    "value" : "'密码错误'"
+  }, {
+    "name" : "error_code",
+    "value" : "'10000'"
+  }, {
+    "name" : "password",
+    "value" : "'123456'"
+  }, {
+    "name" : "username",
+    "value" : "'zhangsan'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d85efa91ac47ce18.json",
+  "parameterValues" : [ "'密码错误'", "'10000'", "'123456'", "'zhangsan'" ]
+}

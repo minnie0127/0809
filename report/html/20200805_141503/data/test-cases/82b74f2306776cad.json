@@ -1,0 +1,64 @@
+{
+  "uid" : "82b74f2306776cad",
+  "name" : "test_login01[zhangsan-MTIzMTIzNDU2-0]",
+  "fullName" : "cases.test_login#test_login01",
+  "historyId" : "4ecaa481b8d5462f63e18b35a976007f",
+  "time" : {
+    "start" : 1596608103931,
+    "stop" : 1596608104065,
+    "duration" : 134
+  },
+  "description" : "正常登录",
+  "descriptionHtml" : "<p>正常登录</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "22216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "error_code",
+    "value" : "0"
+  }, {
+    "name" : "password",
+    "value" : "'MTIzMTIzNDU2'"
+  }, {
+    "name" : "username",
+    "value" : "'zhangsan'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82b74f2306776cad.json",
+  "parameterValues" : [ "0", "'MTIzMTIzNDU2'", "'zhangsan'" ]
+}

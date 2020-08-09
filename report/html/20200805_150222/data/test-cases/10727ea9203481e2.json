@@ -1,0 +1,55 @@
+{
+  "uid" : "10727ea9203481e2",
+  "name" : "test_geteventlist01",
+  "fullName" : "cases.test_geteventlist#test_geteventlist01",
+  "historyId" : "d08f7e1daf8bae270356a158d0d66807",
+  "time" : {
+    "start" : 1596610942732,
+    "stop" : 1596610942771,
+    "duration" : 39
+  },
+  "description" : "无查询条件",
+  "descriptionHtml" : "<p>无查询条件</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_geteventlist"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "11604-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_geteventlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10727ea9203481e2.json",
+  "parameterValues" : [ ]
+}

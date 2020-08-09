@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MSI",
+    "children" : [ {
+      "name" : "10316-MainThread",
+      "children" : [ {
+        "name" : "test_geteventlist02",
+        "uid" : "fcc293d26dfa91a1",
+        "parentUid" : "d3e823673d7f21a88a9ac1876a9ad802",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596613047040,
+          "stop" : 1596613047064,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login02",
+        "uid" : "15a5e2c3ddae1711",
+        "parentUid" : "d3e823673d7f21a88a9ac1876a9ad802",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596613047079,
+          "stop" : 1596613047197,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_geteventlist01",
+        "uid" : "c7e59f25b2c205ba",
+        "parentUid" : "d3e823673d7f21a88a9ac1876a9ad802",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596613046956,
+          "stop" : 1596613046995,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3e823673d7f21a88a9ac1876a9ad802"
+    } ],
+    "uid" : "4e235fbd4c199973bc00f3dda2ae852d"
+  } ]
+}

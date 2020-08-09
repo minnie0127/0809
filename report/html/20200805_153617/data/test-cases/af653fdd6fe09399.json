@@ -1,0 +1,76 @@
+{
+  "uid" : "af653fdd6fe09399",
+  "name" : "test_geteventlist01",
+  "fullName" : "cases.test_geteventlist#test_geteventlist01",
+  "historyId" : "d08f7e1daf8bae270356a158d0d66807",
+  "time" : {
+    "start" : 1596612977631,
+    "stop" : 1596612977652,
+    "duration" : 21
+  },
+  "description" : "无查询条件",
+  "descriptionHtml" : "<p>无查询条件</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 响应json节点检查失败。实际结果【10001】，预期结果【0】， json节点的路径【error_code】",
+  "statusTrace" : "get = <function get.<locals>.__get at 0x000001A7603F8510>\n\n    def test_geteventlist01(get):\n        '''无查询条件'''\n        client = Client(url='/get_eventlist/', method=METHOD.GET)\n        client.set_header('uid', get('uid'))\n        client.set_header('key', get('key'))\n        client.send()\n        client.check_status_code_is_200()\n>       client.check_json_value('error_code', 0)\n\ncases\\test_geteventlist.py:10: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <client.Client object at 0x000001A75F766E10>, path = 'error_code', b = 0\n\n    def check_json_value(self, path, b):\n        value = self.json_path_value(path)\n        assert str(value) == str(b), '响应json节点检查失败。实际结果【{a}】，预期结果【{b}】， json节点的路径【{path}】'.format(\n>           a=value, b=b, path=path\n        )\nE       AssertionError: 响应json节点检查失败。实际结果【10001】，预期结果【0】， json节点的路径【error_code】\n\nclient.py:165: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get",
+    "time" : {
+      "start" : 1596612977621,
+      "stop" : 1596612977621,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_geteventlist"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "9856-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_geteventlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "af653fdd6fe09399.json",
+  "parameterValues" : [ ]
+}
